@@ -1,0 +1,14 @@
+{
+  "targets": {
+    "web-cuc": {
+      "hosting": {
+        "web-cuc": [
+          "web-cuc"
+        ]
+      }
+    }
+  },
+  "projects": {
+    "default": "web-cuc"
+  }
+}

@@ -103,6 +103,16 @@
             ],
             "scripts": []
           }
+        },
+        "deploy": {
+          "builder": "@angular/fire:deploy",
+          "options": {
+            "prerender": false,
+            "ssr": false,
+            "browserTarget": "web-cuc:build:production",
+            "firebaseProject": "web-cuc",
+            "firebaseHostingSite": "web-cuc"
+          }
         }
       }
     }
